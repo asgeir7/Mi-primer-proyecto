@@ -113,6 +113,8 @@ class Producto:
 
 
 if __name__ == '__main__':
+    # Esta de codigo va a registrada como una version
+    print("Esta de codigo va a registrada como una version")
     ventana = Tk()
     app = Producto(ventana)
     ventana.mainloop()
